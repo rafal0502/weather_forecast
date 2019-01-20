@@ -9,6 +9,15 @@ import API
 
 class GetForecast:
 
+    def get_forecast_for_city(self, city_name):
+        url = 'http://api.openweathermap.org/data/2.5/weather?q={}&appid={}'.format(city_name, API.api_key)
+        resp = requests.get(url=url)
+        data = resp.json()
+        return data
+
+
+
+
     def get_forecast_data(self, cities: List):
             for city in cities:
                 url = 'http://api.openweathermap.org/data/2.5/forecast'
@@ -19,9 +28,9 @@ class GetForecast:
                 )
 
                 resp = requests.get(url=url, params=params)
-                new_City = resp.json()
+                weather = resp.json()
 
-            return new_City
+            return weather
 
 
 
