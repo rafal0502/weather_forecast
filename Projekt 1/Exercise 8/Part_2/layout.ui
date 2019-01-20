@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>603</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="gridLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>601</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <property name="leftMargin">
+      <number>10</number>
+     </property>
+     <property name="topMargin">
+      <number>10</number>
+     </property>
+     <property name="rightMargin">
+      <number>10</number>
+     </property>
+     <property name="bottomMargin">
+      <number>10</number>
+     </property>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="filePath_edit"/>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Select file to load:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QPushButton" name="quitBtt">
+       <property name="text">
+        <string>Quit</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="2">
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QPushButton" name="chooseFileBtt">
+         <property name="text">
+          <string>Browse</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QPushButton" name="loadBtt">
+         <property name="text">
+          <string>Load</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item row="2" column="0" colspan="3">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>VTK Preview of selected items:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QPushButton" name="deleteBtt">
+       <property name="text">
+        <string>Delete selected</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0" colspan="3">
+      <widget class="QWidget" name="widget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>781</width>
+         <height>300</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0" colspan="2">
+      <widget class="QListView" name="listView"/>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
