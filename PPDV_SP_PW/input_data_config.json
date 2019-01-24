@@ -1,0 +1,162 @@
+{
+  "bounds": {
+    "upper": 54.835778,
+    "lower": 49.002036,
+    "left": 14.122865,
+    "right": 24.145445
+  },
+  "cities": [{
+      "id": 7530858,
+      "name": "Poznań",
+      "country": "PL",
+      "coord": {
+        "lon": 16.901541,
+        "lat": 52.400631
+      }
+    },
+    {
+      "id": 7531926,
+      "name": "Warszawa",
+      "country": "PL",
+      "coord": {
+        "lon": 21.061399,
+        "lat": 52.233101
+      }
+    },
+    {
+      "id": 7533507,
+      "name": "Grodzisk Mazowiecki",
+      "country": "PL",
+      "coord": {
+        "lon": 20.6332,
+        "lat": 52.105202
+      }
+    },
+    {
+      "id": 7531646,
+      "name": "Ełk",
+      "country": "PL",
+      "coord": {
+        "lon": 22.3598,
+        "lat": 53.823898
+      }
+    },
+    {
+      "id": 7533428,
+      "name": "Świebodzin",
+      "country": "PL",
+      "coord": {
+        "lon": 15.5311,
+        "lat": 52.244202
+      }
+    },
+    {
+      "id": 7530983,
+      "name": "Koszalin",
+      "country": "PL",
+      "coord": {
+        "lon": 16.21661,
+        "lat": 54.207191
+      }
+    },
+    {
+      "id": 3093133,
+      "name": "Lodz",
+      "country": "PL",
+      "coord": {
+        "lon": 19.466669,
+        "lat": 51.75
+      }
+    },
+    {
+      "id": 763166,
+      "name": "Olsztyn",
+      "country": "PL",
+      "coord": {
+        "lon": 20.49416,
+        "lat": 53.779949
+      }
+    },
+    {
+      "id": 7531513,
+      "name": "Zakopane",
+      "country": "PL",
+      "coord": {
+        "lon": 19.971861,
+        "lat": 49.275761
+      }
+    },
+    {
+      "id": 7530863,
+      "name": "Kalisz",
+      "country": "PL",
+      "coord": {
+        "lon": 18.076059,
+        "lat": 51.74725
+      }
+    },
+    {
+      "id": 3083829,
+      "name": "Szczecin",
+      "country": "PL",
+      "coord": {
+        "lon": 14.55302,
+        "lat": 53.42894
+      }
+    },
+    {
+      "id": 3083271,
+      "name": "Toruń",
+      "country": "PL",
+      "coord": {
+        "lon": 18.598141,
+        "lat": 53.013748
+      }
+    },
+    {
+      "id": 753865,
+      "name": "Zamość",
+      "country": "PL",
+      "coord": {
+        "lon": 23.183331,
+        "lat": 50.833328
+      }
+    },
+    {
+      "id": 765876,
+      "name": "Lublin",
+      "country": "PL",
+      "coord": {
+        "lon": 22.566669,
+        "lat": 51.25
+      }
+    },
+    {
+      "id": 3094802,
+      "name": "Krakow",
+      "country": "PL",
+      "coord": {
+        "lon": 19.91667,
+        "lat": 50.083328
+      }
+    },
+    {
+      "id": 7530819,
+      "name": "Rzeszów",
+      "country": "PL",
+      "coord": {
+        "lon": 21.98848,
+        "lat": 50.005451
+      }
+    },
+    {
+      "id": 7530991,
+      "name": "Zielona Góra",
+      "country": "PL",
+      "coord": {
+        "lon": 15.51216,
+        "lat": 51.937679
+      }
+    }
+  ]
+}
